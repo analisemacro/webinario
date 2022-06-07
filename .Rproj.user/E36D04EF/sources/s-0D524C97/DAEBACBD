@@ -1,7 +1,7 @@
 {
     "id": "DAEBACBD",
-    "path": "C:/Users/luiz_/Dropbox/Webinario/apresentacao.Rmd",
-    "project_path": "apresentacao.Rmd",
+    "path": "C:/Users/luiz_/Dropbox/Webinario/index.Rmd",
+    "project_path": "index.Rmd",
     "type": "r_markdown",
     "hash": "0",
     "contents": "",
@@ -11,7 +11,9 @@
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "19,0",
+        "scrollLine": "14"
     },
     "folds": "",
     "lastKnownWriteTime": 1654205925,
