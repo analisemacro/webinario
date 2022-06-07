@@ -1,0 +1,19 @@
+"0","library(rugarch)    # CRAN v1.4-7
+"
+"2","package ‘rugarch’ was built under R version 4.1.2"
+"2","Carregando pacotes exigidos: parallel
+"
+"2","
+Attaching package: ‘rugarch’
+
+"
+"2","The following object is masked from ‘package:fabletools’:
+
+    report
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    sigma
+
+"

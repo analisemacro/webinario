@@ -1,0 +1,163 @@
+---
+title: "1º Webinário da Análise Macro"
+subtitle: "Os 4 passos para se tornar um Cientista de Dados"
+author: 'Vítor Wilher<br><span style = "font-size: 70%;">Cientista-Chefe da Análise Macro<br><a href="https://github.com/analisemacro">`r fontawesome::fa("github", fill = "#282f6b")`</a>&nbsp; <a href="https://www.linkedin.com/in/vitorwilher/">`r fontawesome::fa("linkedin", fill = "#282f6b")`</a>&nbsp; <a href="mailto:vitorwilher@analisemacro.com.br">`r fontawesome::fa("envelope", fill = "#282f6b")`</a>&nbsp; <a href="https://analisemacro.com.br/">`r fontawesome::fa("home", fill = "#282f6b")`</a></span>'
+date: "<span style = 'font-size: 70%;'>`r format(Sys.Date(), '%d de %B de %Y')`</span>"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation: 
+        scroll: false
+params:
+  logo_slides: "https://analisemacro.com.br/wp-content/uploads/dlm_uploads/2021/10/logo_am.png"
+---
+
+```{r, file = "./rmd/setup.R", include=FALSE}
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(htmltools.preserve.raw = FALSE)
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning   = FALSE,  # exibir avisos do console?
+  message   = FALSE,  # exibir mensagens do console?
+  dpi       = 300,    # resolução
+  fig.align = "center"# alinhamento de imagens
+  )
+```
+
+
+```{css, echo=FALSE}
+pre {
+  white-space: pre-wrap;
+  overflow-y: scroll !important;
+  max-height: 45vh !important;
+  overflow-x: auto;
+  max-width: 100%;
+}
+```
+
+
+### Seja bem-vindo!
+
+Nesse `1º Webinário da Análise Macro`, eu vou te mostrar os `4 passos para se tornar um Cientista de Dados`, a carreira mais `sexy` dos tempos atuais.
+
+Vou te explicar uma forma simples e segura para você aplicar para milhares de vagas em poucos meses `fazendo exatamente o que eu vou te explicar nesse webinário`. 
+
+---
+### Qual o público-alvo do Webinário?
+
+Se você...
+
+- Teve ou está tendo uma base matemática na graduação;
+- Ouviu falar em `ciência de dados` e se interessou;
+- Quer fazer uma migração ou começar uma carreira para com desafios diários e bons salários.
+
+Você está no lugar certo!
+
+---
+### Mas eu realmente posso ser Cientista de Dados?
+
+Para responder sim a essa pergunta, eu vou te contar a minha própria estória...
+
+```{r, out.width = "70%", fig.alt="", fig.cap=""}
+knitr::include_graphics("imgs/vw_economia.png")
+```
+
+
+---
+class: middle, center, inverse
+# Os 4 passos para se tornar um Cientista de Dados
+
+
+---
+### O primeiro passo para se tornar um Cientista de Dados
+
+O primeiro passo que você deve dar para se tornar um Cientista de Dados é **aprender uma linguagem de programação**!
+
+.pull-center[
+
+<img src="imgs/python.svg" width="150"/> &nbsp; &nbsp; <img src="imgs/r.png" width="230"/>
+
+]
+
+---
+### O primeiro passo para se tornar um Cientista de Dados
+
+No mercado, existem diversos softwares para analisar dados. Alguns bastante generalizados (Excel) e outros mais específicos (tableau).
+
+Ao **aprender R e Python**, porém, você vai focar no que realmente importa em ciência de dados, que é **saber resolver problemas**.
+
+O que o mercado quer é alguém que **entre aos 35 do segundo tempo** e mude a **estória do jogo**!
+
+
+
+---
+### O segundo passo para se tornar um Cientista de Dados
+
+Você vai precisar criar um `portfólio` para mostrar que você sabe `resolver problemas de análise de dados`!
+
+```{r, out.width = "70%", fig.alt="", fig.cap=""}
+knitr::include_graphics("imgs/portfolio.png")
+```
+
+---
+### O terceiro passo para se tornar um Cientista de Dados
+
+Você vai precisar colocar casos reais no seu portfólio!
+
+```{r, out.width = "70%", fig.alt="", fig.cap=""}
+knitr::include_graphics("imgs/ipca.png")
+```
+
+---
+### O quarto passo para se tornar um Cientista de Dados
+
+Você vai precisar publicar a resolução de problemas no Linkedin.
+
+```{r, out.width = "70%", fig.alt="", fig.cap=""}
+knitr::include_graphics("imgs/linkedin.png")
+```
+
+---
+### E como eu posso te ajudar nesse processo?
+
+Recapitulando, são 4 os passos para você se tornar um Cientista de Dados de verdade:
+
+1. Aprender o quanto antes `R e Python`;
+2. Criar um portfólio;
+3. Começar a resolver problemas reais;
+4. Divulgar a resolução de problemas reais no Linkedin.
+
+---
+### E como eu posso te ajudar nesse processo?
+
+Você realmente pode seguir esses 4 passos que eu acabei de te falar em qualquer área de atuação!
+
+Mas você não vai conseguir aplicar para vagas em poucos meses se quiser `abraçar o mundo`, ou seja, quiser `cobrar escanteio e correr para grande área para fazer o gol`, como tem um monte de professores e especialistas ensinando por aí.
+
+```{r, out.width = "50%", fig.alt="Updated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst.", fig.cap="Updated from Grolemund & Wickham's classis R4DS schematic, envisioned by <br>Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst."}
+knitr::include_graphics("imgs/data_analysis.png")
+```
+
+---
+### E como eu posso te ajudar nesse processo?
+
+Ciência de Dados é uma área muito ampla: ela envolve diversos conhecimentos de coleta, tratamento, análise/modelagem e visualização de dados. 
+
+Na área de `economia e finanças`, porém, existe um `oceano azul` de **aplicações reais** que você vai poder utilizar conhecimentos de ciência de dados para criar um portfólio do zero e mostrar para o mundo o que você pode fazer!
+
+Em poucos meses, você realmente vai poder aplicar para vagas e conquistar um estágio e/ou um emprego, como o nosso estagiário Luiz que foi efetivado esse mês aqui na Análise Macro. 
+
+---
+### E como eu posso te ajudar nesse processo?
+
+
+Vou te mostrar como eu posso te ajudar ainda mais nesse caminho...
